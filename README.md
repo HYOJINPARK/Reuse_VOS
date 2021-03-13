@@ -4,11 +4,15 @@ This code implementation of CVPR 2021 paper :  [Learning Dynamic Network Using a
 
 Hard case (Ours, FRTM)
 
-<img src="./sample/Gate_dog.gif" alt="sample ours hard" width="426" height="240"> <img src="./sample/FRTM_dog.gif" alt="sample FRTM hard" width="426" height="240">
+<img src="./sample/Gate_dog.gif" alt="sample ours hard" width="426" height="240"> (Ours)
+
+ <img src="./sample/FRTM_dog.gif" alt="sample FRTM hard" width="426" height="240"> (FRTM)
 
 Easy case (Ours, FRTM)
 
-<img src="./sample/Gate_cow.gif" alt="sample ours easy" width="426" height="240"> <img src="./sample/FRTM_cow.gif" alt="sample FRTM easy" width="426" height="240">
+<img src="./sample/Gate_cow.gif" alt="sample ours easy" width="426" height="240">(Ours)
+
+ <img src="./sample/FRTM_cow.gif" alt="sample FRTM easy" width="426" height="240">(FRTM)
 
 ## Requirement
 ### python package
