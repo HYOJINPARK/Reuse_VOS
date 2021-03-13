@@ -2,7 +2,7 @@
 
 This code implementation of CVPR 2021 paper :  [Learning Dynamic Network Using a Reuse Gate Function in Semi-supervised Video Object Segmentation](https://arxiv.org/abs/2012.11655).
 
-<img src="./sample/Gate_dog.gif" alt="sample results" style="max-width:75%;">
+<img src="./sample/Gate_dog.gif" alt="sample ours hard" width="250" height="250">
 
 ## Requirement
 ### python package
