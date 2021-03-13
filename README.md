@@ -2,7 +2,13 @@
 
 This code implementation of CVPR 2021 paper :  [Learning Dynamic Network Using a Reuse Gate Function in Semi-supervised Video Object Segmentation](https://arxiv.org/abs/2012.11655).
 
-<img src="./sample/Gate_dog.gif" alt="sample ours hard" width="250" height="250">
+Hard case (Ours, FRTM)
+
+<img src="./sample/Gate_dog.gif" alt="sample ours hard" width="426" height="240"> <img src="./sample/FRTM_dog.gif" alt="sample FRTM hard" width="426" height="240">
+
+Easy case (Ours, FRTM)
+
+<img src="./sample/Gate_cow.gif" alt="sample ours easy" width="426" height="240"> <img src="./sample/FRTM_cow.gif" alt="sample FRTM easy" width="426" height="240">
 
 ## Requirement
 ### python package
@@ -82,13 +88,9 @@ To train a network, run following command.
 python train.py <session-name> --ftext resnet18 --dset all --dev cuda:0
 ```
 `--ftext` is the name of the feature extractor, either resnet18 or resnet101.
-
 `--dset` is one of dv2017, ytvos2018 or all ("all" really means "both").
-
 `--dev` is the name of the device to train on.
-
 `--m1` is the margin1 for training reuse gate, and we use 1.0 for DAVIS benchmark and 0.5 for Youtube-VOS benchmark.
-
 `--m2` is the margin2 for training reuse gate, and  we use 0. 
 
 Replace "session-name" with whatever you like. Subdirectories with this name
@@ -106,18 +108,15 @@ To train a network, run following command.
 python evaluate.py --ftext resnet18 --dset all --dev cuda:0
 ```
 `--ftext` is the name of the feature extractor, either resnet18 or resnet101.
-
 `--dset` is one of dv2017, dv2016, ytvos2018.
-
 `--dev` is the name of the device to eval on.
-
 `--TH` Threshold for tau default= 0.7
 
 The inference results will be saved at `${ROOT}/${result}` .
 
 
 ## Acknowledgement
-This codebase borrows the code and structure from [official FRTM repository](https://github.com/andr345/frtm-vos)
+This codebase borrows the code and structure from [official FRTM repository](https://github.com/andr345/frtm-vos).
 We are grateful to Facebook Inc. with valuable discussions.
 ## Reference
 The codebase is built based on following works
