@@ -109,10 +109,10 @@ output directories and the place to cache target model weights.
 To train a network, run following command.
 
 ```shell script
-python evaluate.py --ftext resnet18 --dset all --dev cuda:0
+python evaluate.py --ftext resnet18 --dset dv2017val --dev cuda:0
 ```
 `--ftext` is the name of the feature extractor, either resnet18 or resnet101.
-`--dset` is one of dv2017, dv2016, ytvos2018.
+`--dset` is one of dv2016val, dv2017val, yt2018jjval, yt2018val or yt2018valAll
 `--dev` is the name of the device to eval on.
 `--TH` Threshold for tau default= 0.7
 
