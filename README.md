@@ -89,8 +89,9 @@ output directories and the place to cache target model weights.
 To train a network, run following command.
 
 ```shell script
-python train.py <session-name> --ftext resnet18 --dset all --dev cuda:0
+python train.py --name <session-name> --ftext resnet18 --dset all --dev cuda:0
 ```
+`--name` is the name of save_dir name of current train
 `--ftext` is the name of the feature extractor, either resnet18 or resnet101.
 `--dset` is one of dv2017, ytvos2018 or all ("all" really means "both").
 `--dev` is the name of the device to train on.
