@@ -62,8 +62,8 @@ and place it in this directory structure:
 |---------------|:--------:|:-------------------:|:--------:|:-------:|:-----:|
 | G-FRTM (t=1)  | Resnet18 | Youtube-VOS + DAVIS | 71.7 | 80.9 | [Google Drive](https://drive.google.com/file/d/1CedlOkynY9ja4Sd9q7wLO6-fELh_cM1R/view?usp=sharing)| 
 | G-FRTM (t=0.7)| Resnet18 | Youtube-VOS + DAVIS | 69.9 | 80.5 | same pth|
-| G-FRTM (t=1)  | Resnet101| Youtube-VOS + DAVIS | 76.4 | 84.3 | soon| 
-| G-FRTM (t=0.7)| Resnet101| Youtube-VOS + DAVIS | 74.3 | 82.3 | soon| 
+| G-FRTM (t=1)  | Resnet101| Youtube-VOS + DAVIS | 76.4 | 84.3 | [Google Drive](https://drive.google.com/file/d/1NBmmntbts_weg9GIxjGl8pFMjGjw89Yv/view?usp=sharing)| 
+| G-FRTM (t=0.7)| Resnet101| Youtube-VOS + DAVIS | 74.3 | 82.3 | same pth| 
 
 ### Youtube-VOS
 
@@ -118,7 +118,7 @@ python evaluate.py --ftext resnet18 --dset dv2017val --dev cuda:0
 `--TH` Threshold for tau default= 0.7
 
 The inference results will be saved at `${ROOT}/${result}` .
-
+It is better to check multiple pth file for good accuracy.
 
 ## Acknowledgement
 This codebase borrows the code and structure from [official FRTM repository](https://github.com/andr345/frtm-vos).
