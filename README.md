@@ -1,4 +1,4 @@
-# Trainig Script for Reuse-VOS
+# Training Script for Reuse-VOS
 
 This code implementation of CVPR 2021 paper :  [Learning Dynamic Network Using a Reuse Gate Function in Semi-supervised Video Object Segmentation](https://arxiv.org/abs/2012.11655).
 
