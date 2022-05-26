@@ -60,7 +60,7 @@ and place it in this directory structure:
 
 | model         |Backbone  |Training set         | J & F 17 | J & F 16| link  |
 |---------------|:--------:|:-------------------:|:--------:|:-------:|:-----:|
-| G-FRTM (t=1)  | Resnet18 | Youtube-VOS + DAVIS | 71.7 | 80.9 | [Google Drive](https://drive.google.com/file/d/1CedlOkynY9ja4Sd9q7wLO6-fELh_cM1R/view?usp=sharing)| 
+| G-FRTM (t=1)  | Resnet18 | Youtube-VOS + DAVIS | 71.7 | 80.9 | [Google Drive](https://drive.google.com/file/d/1xRzAQQ9fbNDpr0NA55Ain0IZD-_tnl3Q/view?usp=sharing)| 
 | G-FRTM (t=0.7)| Resnet18 | Youtube-VOS + DAVIS | 69.9 | 80.5 | same pth|
 | G-FRTM (t=1)  | Resnet101| Youtube-VOS + DAVIS | 76.4 | 84.3 | [Google Drive](https://drive.google.com/file/d/1NBmmntbts_weg9GIxjGl8pFMjGjw89Yv/view?usp=sharing)| 
 | G-FRTM (t=0.7)| Resnet101| Youtube-VOS + DAVIS | 74.3 | 82.3 | same pth| 
